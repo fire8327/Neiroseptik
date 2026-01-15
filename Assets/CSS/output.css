@@ -197,11 +197,53 @@
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
+  .w-1\/3 {
+    width: calc(1/3 * 100%);
+  }
+  .w-2 {
+    width: calc(var(--spacing) * 2);
+  }
+  .w-2\/3 {
+    width: calc(2/3 * 100%);
+  }
   .w-\[200px\] {
     width: 200px;
   }
   .w-full {
     width: 100%;
+  }
+  .max-w-1 {
+    max-width: calc(var(--spacing) * 1);
+  }
+  .max-w-1\/1 {
+    max-width: calc(1/1 * 100%);
+  }
+  .max-w-1\/2 {
+    max-width: calc(1/2 * 100%);
+  }
+  .max-w-1\/3 {
+    max-width: calc(1/3 * 100%);
+  }
+  .max-w-2 {
+    max-width: calc(var(--spacing) * 2);
+  }
+  .max-w-2\/3 {
+    max-width: calc(2/3 * 100%);
+  }
+  .max-w-2\/5 {
+    max-width: calc(2/5 * 100%);
+  }
+  .max-w-2\/52 {
+    max-width: calc(2/52 * 100%);
+  }
+  .max-w-3 {
+    max-width: calc(var(--spacing) * 3);
+  }
+  .max-w-3\/3 {
+    max-width: calc(3/3 * 100%);
+  }
+  .max-w-12 {
+    max-width: calc(var(--spacing) * 12);
   }
   .max-w-\[100px\] {
     max-width: 100px;
@@ -396,6 +438,16 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .sm\:max-w-\[170px\] {
+    @media (width >= 40rem) {
+      max-width: 170px;
+    }
+  }
+  .sm\:max-w-\[200px\] {
+    @media (width >= 40rem) {
+      max-width: 200px;
+    }
   }
 }
 @property --tw-border-style {
