@@ -200,6 +200,12 @@
   .h-\[2vh\] {
     height: 2vh;
   }
+  .h-\[5vh\] {
+    height: 5vh;
+  }
+  .h-\[6\.8vh\] {
+    height: 6.8vh;
+  }
   .h-\[25svh\] {
     height: 25svh;
   }
@@ -304,6 +310,12 @@
   .to-\[\#13566C\] {
     --tw-gradient-to: #13566C;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
+  }
+  .px-3\.5 {
+    padding-inline: calc(var(--spacing) * 3.5);
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
