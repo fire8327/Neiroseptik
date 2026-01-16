@@ -200,6 +200,9 @@
   .h-\[2vh\] {
     height: 2vh;
   }
+  .h-\[25svh\] {
+    height: 25svh;
+  }
   .h-\[25vh\] {
     height: 25vh;
   }
@@ -321,14 +324,23 @@
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
+  .text-\[2\.3svh\] {
+    font-size: 2.3svh;
+  }
   .text-\[2\.3vh\] {
     font-size: 2.3vh;
   }
   .text-\[3\.3vh\] {
     font-size: 3.3vh;
   }
+  .text-\[3svh\] {
+    font-size: 3svh;
+  }
   .text-\[3vh\] {
     font-size: 3vh;
+  }
+  .text-\[5svh\] {
+    font-size: 5svh;
   }
   .text-\[5vh\] {
     font-size: 5vh;
@@ -366,6 +378,11 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .sm\:h-\[29svh\] {
+    @media (width >= 40rem) {
+      height: 29svh;
+    }
   }
   .sm\:h-\[29vh\] {
     @media (width >= 40rem) {
