@@ -24,8 +24,7 @@
             Верните себе 2 часа <br>
             свободного времени каждый день.
         </p>
-        <a href="https://www.google.com/?hl=ru" target="_blank" class="group text-[2.3svh] px-3.5 h-[5vh] font-semibold flex items-center justify-center rounded-2xl relative overflow-hidden transition-all duration-300 active:scale-95">
-            
+        <button onclick="openLinkInNewTab()" class="cursor-pointer group text-[2.3svh] px-3.5 h-[5vh] font-semibold flex items-center justify-center rounded-2xl relative overflow-hidden transition-all duration-300 active:scale-95">
             <!-- Базовый -->
             <span class="absolute inset-0 rounded-2xl bg-linear-to-b from-[#A252DD] to-[#3A2B58]"></span>
             
@@ -36,7 +35,7 @@
             <span class="absolute inset-0 rounded-2xl bg-linear-to-b from-[#8D47C1] to-[#2D2146] opacity-0 group-active:opacity-100 transition-opacity duration-300"></span>
 
             <span class="relative z-10 group-active:text-[#9761D3]">Протестировать бесплатно</span>
-        </a>
+        </button>
         <p class="text-[2.3svh] leading-[100%] font-medium">
             Автоматизация графика <br>
             работы и напоминания <br>
@@ -48,5 +47,11 @@
             Умный Телеграм-бот.
         </p>
     </div>
+
+    <script>
+        function openLinkInNewTab() {
+          window.open('https://www.google.com/?hl=ru', '_blank');
+        }
+    </script>
 </body>
 </html>
