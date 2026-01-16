@@ -267,6 +267,14 @@
     --tw-gradient-from: #9C4FD5;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
+  .from-\[\#A252DD\] {
+    --tw-gradient-from: #A252DD;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .from-\[\#D47FF4\] {
+    --tw-gradient-from: #D47FF4;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
   .from-\[\#bf7ef0\] {
     --tw-gradient-from: #bf7ef0;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -288,8 +296,20 @@
     --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-via-stops);
   }
+  .to-\[\#2D1B45\] {
+    --tw-gradient-to: #2D1B45;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-\[\#3A2B58\] {
+    --tw-gradient-to: #3A2B58;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
   .to-\[\#3D2C5C\] {
     --tw-gradient-to: #3D2C5C;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-\[\#5B4085\] {
+    --tw-gradient-to: #5B4085;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .to-\[\#13566C\] {
@@ -370,9 +390,66 @@
       }
     }
   }
+  .group-active\:text-\[\#2D1B45\] {
+    &:is(:where(.group):active *) {
+      color: #2D1B45;
+    }
+  }
+  .group-active\:text-\[\#884DAE\] {
+    &:is(:where(.group):active *) {
+      color: #884DAE;
+    }
+  }
+  .group-active\:text-\[\#9761D3\] {
+    &:is(:where(.group):active *) {
+      color: #9761D3;
+    }
+  }
+  .group-active\:text-\[\#AB60D6\] {
+    &:is(:where(.group):active *) {
+      color: #AB60D6;
+    }
+  }
+  .group-active\:text-\[884DAE\] {
+    &:is(:where(.group):active *) {
+      color: 884DAE;
+    }
+  }
   .group-active\:opacity-100 {
     &:is(:where(.group):active *) {
       opacity: 100%;
+    }
+  }
+  .hover\:from-\[\#C380F5\] {
+    &:hover {
+      @media (hover: hover) {
+        --tw-gradient-from: #C380F5;
+        --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+      }
+    }
+  }
+  .hover\:from-\[\#\] {
+    &:hover {
+      @media (hover: hover) {
+        --tw-gradient-from: #;
+        --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+      }
+    }
+  }
+  .hover\:to-\[\#554282\] {
+    &:hover {
+      @media (hover: hover) {
+        --tw-gradient-to: #554282;
+        --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+      }
+    }
+  }
+  .hover\:to-\[\#\] {
+    &:hover {
+      @media (hover: hover) {
+        --tw-gradient-to: #;
+        --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+      }
     }
   }
   .active\:scale-95 {
@@ -381,6 +458,24 @@
       --tw-scale-y: 95%;
       --tw-scale-z: 95%;
       scale: var(--tw-scale-x) var(--tw-scale-y);
+    }
+  }
+  .active\:from-\[\#8D47C1\] {
+    &:active {
+      --tw-gradient-from: #8D47C1;
+      --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+    }
+  }
+  .active\:to-\[\#2D2146\] {
+    &:active {
+      --tw-gradient-to: #2D2146;
+      --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+    }
+  }
+  .active\:to-\[\#\] {
+    &:active {
+      --tw-gradient-to: #;
+      --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
     }
   }
   .sm\:h-\[29svh\] {
